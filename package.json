@@ -2,7 +2,7 @@
   "name": "task-list",
   "homepage": "https://jahnvijoshi14.github.io/habit-list",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
