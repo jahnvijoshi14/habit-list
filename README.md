@@ -10,3 +10,18 @@ there are mainly 3 status :
 3. todo
 
 To store the state we have used to react-redux and to move from list view to calender view we have used the react router.
+
+Installation and Setup Instructions
+Clone down this repository. You will need node and npm installed globally on your machine.
+
+Installation:
+
+npm install
+
+To Start Server:
+
+npm start
+
+To Visit App:
+
+localhost:3000
