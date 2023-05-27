@@ -8,3 +8,5 @@ there are mainly 3 status :
 1. done
 2. none
 3. todo
+
+To store the state we have used to react-redux and to move from list view to calender view we have used the react router.
