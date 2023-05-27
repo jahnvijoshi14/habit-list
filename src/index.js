@@ -10,12 +10,12 @@ import store from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
+    <HashRouter>
     <Provider store={store}>
       {console.log(store)}
       <App style={{ color: "grey" }} />
     </Provider>
-    {/* </HashRouter> */}
+    </HashRouter>
   </React.StrictMode>
 );
 
