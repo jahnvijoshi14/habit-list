@@ -76,7 +76,12 @@ const AddTask = ({ addData }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if(!data.title.trim())
+    {
+        alert("Please enter title");
+    }else{
     addData(data);
+    }
     console.log(data);
     setData({
       title: "",
