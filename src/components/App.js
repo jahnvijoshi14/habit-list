@@ -13,13 +13,13 @@ function NoMatch() {
 
 export function App() {
   return (
-    <Router basename="/habit-list/">
+    <Router basename="/habit-list">
       {/* <AddTask /> */}
       {/* <Container style={{ marginTop: "80px" }}> */}
       {/* <ViewSelection /> */}
 
       <Routes>
-        <Route path="/" element={<List />} />
+        <Route path="/habit-list" element={<List />} />
         <Route path="/list" element={<List />} />
         <Route path="/calender" element={<Calendar />} />
         <Route path="*" element={<NoMatch />} />
