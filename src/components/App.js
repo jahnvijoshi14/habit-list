@@ -13,7 +13,7 @@ function NoMatch() {
 
 export function App() {
   return (
-    <Router>
+    <Router basename="/habit-list/">
       {/* <AddTask /> */}
       {/* <Container style={{ marginTop: "80px" }}> */}
       {/* <ViewSelection /> */}
